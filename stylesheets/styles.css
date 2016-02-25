@@ -56,7 +56,7 @@
 
 body {
   background-color: #fff;
-  padding:50px;
+  padding:25px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
@@ -76,7 +76,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:20px;
 }
 
 h2 {
@@ -310,9 +310,9 @@ footer {
   }
 }
 
-@media print, screen and (max-width: 480px) {
+@media print, screen and (max-width: 500px) {
   body {
-    padding:15px;
+    padding:5px;
   }
 
   header ul {
