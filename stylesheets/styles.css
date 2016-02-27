@@ -165,13 +165,10 @@ header {
   float:left;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
   position: fixed;
   height: 100%;
   overflow: auto;
   background-color: ##EDEDED;
-  border-right: thin #f2f2f2;
-  position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
