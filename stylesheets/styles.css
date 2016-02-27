@@ -168,7 +168,6 @@ header {
   position: fixed;
   height: 100%;
   overflow: auto;
-  background-color: ##EDEDED;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 icons {
@@ -234,7 +233,7 @@ header ul a strong {
 }
 
 section {
-  width:1200px;
+  width:900px;
   overflow: auto;
   margin-top: 0px;
   margin-right: 300px;
