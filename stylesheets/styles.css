@@ -170,7 +170,7 @@ header {
   overflow: auto;
   -webkit-font-smoothing:subpixel-antialiased;
 }
-icons {
+div.icons {
  margin-bottom: 500px; 
 }
 header ul {
