@@ -240,7 +240,7 @@ header ul a strong {
 
 section {
   display: block;
-  width:900px;
+  width:800px;
   overflow: auto;
   margin-left: 350px;
   padding:20px;
@@ -344,8 +344,8 @@ footer {
 div.img {
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
     border: 1px solid #ccc;
     float: left;
     width: 180px;
