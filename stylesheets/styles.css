@@ -240,9 +240,8 @@ header ul a strong {
 
 section {
   display: block;
-  width:800px;
+  width:900px;
   overflow: auto;
-  margin-right: 300px;
   margin-left: 350px;
   padding:20px;
   background: #FFFFFF;
