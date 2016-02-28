@@ -237,12 +237,13 @@ header ul a strong {
 }
 
 section {
-  width:900px;
+  display: block;
+  width:800px;
   overflow: auto;
-  margin-top: 0px;
   margin-right: 300px;
   margin-left: 350px;
   padding-bottom:50px;
+  background: #FFFFFF;
 }
 
 small {
