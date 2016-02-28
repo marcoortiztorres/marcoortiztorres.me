@@ -112,10 +112,12 @@ a:hover small {
   color:#777;
 }
 
-.wrapper {
+div.wrapper {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: block;
+  background: #FFFFFF;
 }
 
 blockquote {
@@ -244,6 +246,7 @@ section {
   margin-left: 350px;
   padding:20px;
   background: #FFFFFF;
+  box-shadow: 2px 2px 6px #CFCFCF;
 }
 
 small {
@@ -270,8 +273,6 @@ footer {
   div.wrapper {
     width:auto;
     margin:0;
-    display: block;
-		background: #FFFFFF;
   }
 
   header, section, footer {
