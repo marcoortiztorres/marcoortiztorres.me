@@ -173,6 +173,9 @@ header {
 div.icons {
  margin-bottom: 300px; 
 }
+div.gd {
+  margin-bottom: 250px;
+}
 header ul {
   list-style:none;
   height:40px;
