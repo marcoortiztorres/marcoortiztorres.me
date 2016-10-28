@@ -54,8 +54,10 @@
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg#NotoSans') format('svg');
 }
 
+
+/* body of the site */
 body {
-  background-color: #F0F0F0;
+  background-color: #C63D0F;
   padding:25px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -89,7 +91,7 @@ h2 {
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#3B3738;
 }
 
 a {
@@ -111,17 +113,17 @@ a small {
 a:hover small {
   color:#777;
 }
-
+/* This is where the logo is */
 div.wrapper {
+  background: #FFFFFF;
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: block;
-  background: #FFFFFF;
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
+  border-left:1px solid #7E8F7C;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -133,11 +135,12 @@ code, pre {
   font-size:12px;
 }
 
+/* What is this? GREEN*/
 pre {
   padding:8px 15px;
-  background: #f8f8f8;
+  background: #00ff08;
   border-radius:5px;
-  border:1px solid #e5e5e5;
+  border:1px solid #7E8F7C;
   overflow-x: auto;
 }
 
@@ -149,7 +152,7 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  border-bottom:1px solid #7E8F7C;
 }
 
 dt {
@@ -183,16 +186,17 @@ header ul {
   list-style:none;
   height:40px;
   padding:0;
-  background: #f4f4f4;
+  /* what is this? RED */
+  background: #ff0000;
   border-radius:5px;
-  border:1px solid #e0e0e0;
+  border:1px solid #7E8F7C;
   width:270px;
 }
 
 header li {
   width:89px;
   float:left;
-  border-right:1px solid #e0e0e0;
+  border-right:1px solid #7E8F7C;
   height:40px;
 }
 
@@ -218,6 +222,7 @@ header ul a:hover {
   color:#999;
 }
 
+/* Box with all my indormation */
 header ul a:active {
   background-color:#C63D0F;
 }
