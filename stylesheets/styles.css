@@ -57,7 +57,7 @@
 
 /* body of the site */
 body {
-  background-color: #C63D0F;
+  background-color: #FFFFFF; /* paper colour, background*/
   padding:25px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -91,7 +91,7 @@ h2 {
 }
 
 h3, h4, h5, h6 {
-  color:#3B3738;
+  color:#373737; /*charcoal, word colours*/
 }
 
 a {
@@ -123,7 +123,7 @@ div.wrapper {
 }
 
 blockquote {
-  border-left:1px solid #7E8F7C;
+  border-left:1px solid #373737; /*Border colours, charcoal*/
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -140,7 +140,7 @@ pre {
   padding:8px 15px;
   background: #00ff08;
   border-radius:5px;
-  border:1px solid #7E8F7C;
+  border:1px solid #373737;
   overflow-x: auto;
 }
 
@@ -152,7 +152,7 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #7E8F7C;
+  border-bottom:1px solid #373737;
 }
 
 dt {
@@ -186,17 +186,17 @@ header ul {
   list-style:none;
   height:40px;
   padding:0;
-  /* what is this? RED */
-  background: #FDF3E7;
+  /* Download buttons, gold */
+  background: #C0B283;
   border-radius:5px;
-  border:1px solid #7E8F7C;
+  border:1px solid #373737;
   width:270px;
 }
 
 header li {
   width:89px;
   float:left;
-  border-right:1px solid #7E8F7C;
+  border-right:1px solid #373737;
   height:40px;
 }
 
@@ -224,7 +224,7 @@ header ul a:hover {
 
 /* Box with all my indormation */
 header ul a:active {
-  background-color:#C63D0F;
+  background-color: #F4F4F4; /* paper colour */
 }
 
 strong {
@@ -250,16 +250,17 @@ section {
   margin-left: 350px;
   padding:20px;
   background: #FDF3E7;
-  box-shadow: 1px 1px 6px #CFCFCF;
+  box-shadow: 1px 1px 6px #DCD0C0; /* Silk colour */
 }
 
 small {
   font-size:11px;
 }
 
+/* what is this? */
 hr {
   border:0;
-  background:#e5e5e5;
+  background:#E37222;
   height:1px;
   margin:0 0 20px;
 }
