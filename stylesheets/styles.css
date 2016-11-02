@@ -57,7 +57,7 @@
 
 /* body of the site */
 body {
-  background-color: #FFFFFF; /* paper colour, background*/
+  background-color: #FFFDE7; /* Light Yellow */
   padding:25px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /* color:#727272; */
@@ -295,13 +295,14 @@ header ul a strong {
   color:#222;
 }
 
+/* This Is where genereal information goes*/
 section {
   display: block;
   width:800px;
   overflow: auto;
   margin-left: 350px;
   padding:20px;
-  background: #FDF3E7;
+  background: #FFEB3B; /* Yellow Colour */
   box-shadow: 1px 1px 6px #DCD0C0; /* Silk colour */
 }
 
