@@ -80,10 +80,10 @@ body {
 
 /* body of the site
 body {
-  background-color: #FFFDE7; /* Light Yellow */
+  background-color: #FFFDE7;
   padding:25px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /* color:#727272; */
+  color:#727272;
   font-weight:400;
   width:80%;
   margin-left:auto;
