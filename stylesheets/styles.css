@@ -1,3 +1,5 @@
+/* FONT FACES
+***********************************************************************************************************/
 @font-face {
   font-family: 'Noto Sans';
   font-weight: 400;
@@ -54,8 +56,29 @@
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg#NotoSans') format('svg');
 }
 
+/* GLOBAL COUNTERFORM STYLES
+***********************************************************************************************************/
 
-/* body of the site */
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #FFFDE7;
+    color: #000000;
+    font-family: arial, Helvetica, sans-serif;
+    font-size: 13px;
+    height: 100%;
+    line-height: 1.5
+    width: 100%;
+    word-spacing: 1px;
+}
+
+/* Header / Navigation
+***********************************************************************************************************/
+
+/* body of the site
 body {
   background-color: #FFFDE7; /* Light Yellow */
   padding:25px;
@@ -65,7 +88,7 @@ body {
   width:80%;
   margin-left:auto;
   margin-right:auto;
-}
+} */
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
@@ -121,6 +144,62 @@ div.wrapper {
   padding: 0;
   display: block;
 }
+    /* Navigation > Links
+    ***************************************************************************************************/
+    
+    .nav_container a {                           /* Applied to each navigation link */
+        font-size: 15px;
+        padding: 2px 3px 3px 3px;;
+        text-decoration: none;
+    }
+    
+    .project_link, .page_link, .link_link, .nav_active {
+        margin: -15px 20px 0 -9px;
+    }
+    
+    .project_link a, .page_link a, .link_link a, .nav_active a {
+        font-size: 14px;
+        padding: 4px 9px 5px 9px;
+        text-decoration: none;
+        white-space: nowrap;
+    
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+    }
+
+    .project_link a { color: #555555; }
+    .project_link a:hover { background: #cccccc; color: #000000; }
+    .project_link a:active { background: #cccccc; color: #f2f2f2;}
+
+    .page_link a { color: #555555; }
+    .page_link a:hover { background: #cccccc; color: #000000; }
+    .page_link a:active { background: #cccccc; color: #f2f2f2; }
+
+    .link_link a { color: #555555; text-decoration: underline; }
+    .link_link a:hover { background: #000000; color: #000000; }
+    .link_link a:active { background: #cccccc; color: #f2f2f2; }
+
+    .nav_active a { background: #999999; color: #ffffff; }
+    .nav_active a:hover { background: #999999; color: #ffffff; }
+    .nav_active a:active  { background:#999999; color:#ffffff; }
+
+    .pagination { color: #999999; font-size: 11px; margin: 0 18px 0 0; z-index:11; }
+    .bottompad .pagination { margin-left: 35px; }
+    .pagination a { color: #999999; text-decoration: underline; }
+    .pagination a:hover { background: #999999; color: #222222; }
+    .pagination a:active { background: #999999; color: #ffffff; }
+
+    .nav_follow { color: #999999; font-size: 11px; z-index: 11; }
+    .nav_follow a { color: #999999; text-decoration: underline; }
+    .nav_follow a:hover { background: #999999; color: #222222; }
+    .nav_follow a:active { background: #000000; color: #ffffff; }
+        
+    .view_tag_info { color: #999999; padding-left: 3px; font-size: 11px; }
+    
+    .view_tag_info a { color: #0066ff; }
+    .view_tag_info a:hover { background: #999999; color: #000000; }
+    .view_tag_info a:active { background:#000000; color: #ffffff; }
 
 /* NEW NEW NEW NEW */
 .header_img {
