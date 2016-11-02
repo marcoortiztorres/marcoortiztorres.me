@@ -187,7 +187,7 @@ code, pre {
   font-size:12px;
 }
 
-/* What is this? GREEN*/
+/* What is this? GREEN
 pre {
   padding:8px 15px;
   background: #00ff08;
@@ -195,6 +195,7 @@ pre {
   border:1px solid #373737;
   overflow-x: auto;
 }
+*/
 
 table {
   width:100%;
@@ -276,7 +277,7 @@ header ul a:hover {
 
 /* Box with all my indormation */
 header ul a:active {
-  background-color: #F4F4F4; /* paper colour */
+  background-color: #FFEB3B; /* paper colour */
 }
 
 strong {
