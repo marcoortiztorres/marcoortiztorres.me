@@ -348,17 +348,24 @@ section {
   width:800px;
   overflow: auto;
   margin-left: 350px;
-  padding:20px;
+  padding-left:20px;
+  padding-right:20px;
   box-shadow: 1px 1px 6px #DCD0C0; /* Silk colour */
 }
 section.title {
-   background: #FFEB3B; /* Teal green */
+  background: #FFEB3B;
+  padding-top:20px;
+  padding-bottom:10px;
 }
 section.info {
-   background: #FFF59D; /* Teal green */
+  background: #FFF59D;
+  padding-top:30px;
+  padding-bottom:30px;
 }
 section.footer {
-   background: #F44336; /* Teal green */
+  background: #F44336;
+  padding-top:5px;
+  padding-bottom:5px;
 }
 
 /* SECTION
@@ -395,7 +402,8 @@ img {
   max-width:100%;
 }
 
-header {
+he
+ader {
   width:25%;
   float:left;
   position: fixed;
