@@ -179,13 +179,13 @@ a:-webkit-any-link {
     .nav_follow { color: #999999; font-size: 11px; z-index: 11; }
     .nav_follow a { color: #999999; text-decoration: underline; }
     .nav_follow a:hover { background: #999999; color: #222222; }
-    .nav_follow a:active { background: #000000; color: #ffffff; }
+    .nav_follow a:active { background: #FFC107; color: #ffffff; }
         
     .view_tag_info { color: #999999; padding-left: 3px; font-size: 11px; }
     
     .view_tag_info a { color: #0066ff; }
     .view_tag_info a:hover { background: #999999; color: #000000; }
-    .view_tag_info a:active { background:#000000; color: #ffffff; }
+    .view_tag_info a:active { background:#FFC107; color: #ffffff; } /* Any colours with this code #FFC107 were changed */
 
     /* Content > Thumbnails
     ***************************************************************************************************/
