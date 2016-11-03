@@ -71,8 +71,8 @@ body {
     font-size: 14px;
     /*padding:25px;*/
     height: 100%;
-    line-height: 1.5
-    width: 100%;
+    line-height: 1.5;
+    width: 80%;
     margin-left:auto;
     margin-right:auto;
     word-spacing: 1px;
@@ -365,12 +365,6 @@ blockquote {
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
-}
-
-code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:#333;
-  font-size:12px;
 }
 
 /* What is this? GREEN
