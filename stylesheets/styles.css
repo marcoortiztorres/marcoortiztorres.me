@@ -286,8 +286,6 @@ a:hover small {
 ***************************************************************************************************/
 
 section {
-  left:50%;
-  margin-top: -400px;
   display: block;
   width:800px;
   overflow: auto;
