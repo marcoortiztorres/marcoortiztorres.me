@@ -65,7 +65,7 @@ body, html {
 }
 
 body {
-    background: #FFFDE7;
+    background: #FAFAFA;
     color: #000000;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
@@ -81,7 +81,6 @@ body {
 /* Header / Navigation
 ***********************************************************************************************************/
 
-/* NEW NEW NEW NEW */
 .header_img {
     margin: 0 auto 0 auto;
     padding: 0 0 0 35px;
@@ -341,9 +340,21 @@ a small {
 a:hover small {
   color:#777;
 }
-/*
+/* SECTION
 ***************************************************************************************************/
 
+section {
+  display: block;
+  width:800px;
+  overflow: auto;
+  margin-left: 350px;
+  padding:20px;
+  background: #64FFDA; /* Teal green */
+  box-shadow: 1px 1px 6px #DCD0C0; /* Silk colour */
+}
+
+/* SECTION
+***************************************************************************************************/
 
 blockquote {
   border-left:1px solid #373737; /*Border colours, charcoal*/
@@ -449,17 +460,6 @@ header ul a strong {
   font-size:14px;
   display:block;
   color:#222;
-}
-
-/* This Is where genereal information goes*/
-section {
-  display: block;
-  width:800px;
-  overflow: auto;
-  margin-left: 350px;
-  padding:20px;
-  background: #FFEB3B; /* Yellow Colour */
-  box-shadow: 1px 1px 6px #DCD0C0; /* Silk colour */
 }
 
 small {
