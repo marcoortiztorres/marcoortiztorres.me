@@ -11,7 +11,7 @@ body {
     color: #000000;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
-    /*padding:25px;*/
+    padding:25px;
     height: 100%;
     line-height: 1.5;
     width: 80%;
@@ -286,6 +286,9 @@ a:hover small {
 ***************************************************************************************************/
 
 section {
+  position: fixed;
+  left:50%;
+  margin-top: -400px;
   display: block;
   width:800px;
   overflow: auto;
@@ -310,7 +313,7 @@ section.footer {
   padding-bottom:5px;
 }
 
-/* SECTION
+/* 
 ***************************************************************************************************/
 
 blockquote {
