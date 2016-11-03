@@ -27,7 +27,7 @@ body {
     margin: 0 auto 0 auto;
     padding: 0 0 0 35px;
     position: relative;
-    width: 940px;
+    width: 800px;
     z-index: 11;
 }
 div {
@@ -286,13 +286,15 @@ a:hover small {
 ***************************************************************************************************/
 
 section {
-  display: block;
-  width:800px;
-  overflow: auto;
-  margin-left: 350px;
-  padding-left:20px;
-  padding-right:20px;
-  box-shadow: 1px 1px 6px #DCD0C0; /* Silk colour */
+    margin: 0 auto 0 auto;
+    position: relative;
+    display: block;
+    width:800px;
+    overflow: auto;
+    margin-left: 350px;
+    padding-left:20px;
+    padding-right:20px;
+    box-shadow: 1px 1px 6px #DCD0C0; /* Silk colour */
 }
 section.title {
   background: #00BCD4;
