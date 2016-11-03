@@ -349,8 +349,16 @@ section {
   overflow: auto;
   margin-left: 350px;
   padding:20px;
-  background: #64FFDA; /* Teal green */
   box-shadow: 1px 1px 6px #DCD0C0; /* Silk colour */
+}
+section.title {
+   background: #FFEB3B; /* Teal green */
+}
+section.info {
+   background: #FFF59D; /* Teal green */
+}
+section.footer {
+   background: #F44336; /* Teal green */
 }
 
 /* SECTION
