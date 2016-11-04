@@ -289,7 +289,7 @@ section {
     display: block;
     width:800px;
     overflow: auto;
-    margin-left: auto;
+    margin: 0 auto 0 auto;
     padding-left:20px;
     padding-right:20px;
     box-shadow: 1px 1px 6px #DCD0C0; /* Silk colour */
