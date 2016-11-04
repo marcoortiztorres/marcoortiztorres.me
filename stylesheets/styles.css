@@ -293,19 +293,19 @@ section.title {
     background: #00BCD4;
     padding-top:15px;
     padding-bottom:5px;
-    box-shadow: 0px 6px 10px #DCD0C0; /* Silk colour */
+    box-shadow: 0px 6px 10px #E0E0E0; /* Silk colour */
 }
 section.info {
     background: #FFFFFF;
     padding-top:30px;
     padding-bottom:30px;
-    box-shadow: 0px 2px 10px #DCD0C0; /* Silk colour */
+    box-shadow: 0px 2px 10px #E0E0E0; /* Silk colour */
 }
 section.footer {
     background: #FFC107;
     padding-top:5px;
     padding-bottom:5px;
-    box-shadow: 0px 8px 10px #DCD0C0; /* Silk colour */
+    box-shadow: 0px 8px 10px #E0E0E0; /* Silk colour */
 }
 
 /* 
