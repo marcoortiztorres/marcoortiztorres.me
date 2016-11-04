@@ -520,12 +520,13 @@ div.img {
     margin-left: 2%;
     margin-right: 2%;
     float: left;
+    border: 1px solid #ffffff;
     width: 227px;
     height: 
 }
 
 div.img:hover {
-    border: 1px solid #777;
+    border: 1px solid #fafafa;
 }
 
 div.img img {
