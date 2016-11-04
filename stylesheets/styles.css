@@ -27,7 +27,7 @@ body {
     margin: 0 auto 0 auto;
     padding: 0 0 0 35px;
     position: relative;
-    width: 800px;
+    width: 940px;
     z-index: 11;
 }
 div {
@@ -222,7 +222,7 @@ a:-webkit-any-link {
     
     .thumb_tag a {
         color: #999999;
-        font-family: Georgia, arial, serif;
+        /*font-family: Georgia, arial, serif;*/
         font-size: 11px;
         line-height: 1.5em;
         text-align: center;
@@ -286,11 +286,10 @@ a:hover small {
 ***************************************************************************************************/
 
 section {
-    position: relative;
     display: block;
     width:800px;
     overflow: auto;
-    margin-left: 350px;
+    margin-left: auto;
     padding-left:20px;
     padding-right:20px;
     box-shadow: 1px 1px 6px #DCD0C0; /* Silk colour */
