@@ -51,7 +51,7 @@ div {
     float: left;
     padding-right: 1px;
 }
-.project_link, .page_link, .link_link, .nav_active {
+.project_link, .page_link, .link_link, .nav_active, .social_link {
     margin: -15px 20px 0 -9px;
 }
 div {
@@ -78,11 +78,11 @@ a:-webkit-any-link {
         text-decoration: none;
     }
     
-    .project_link, .page_link, .link_link, .nav_active {
+    .project_link, .page_link, .link_link, .nav_active, .social_link {
         margin: -15px 20px 0 -9px;
     }
     
-    .project_link a, .page_link a, .link_link a, .nav_active a {
+    .project_link a, .page_link a, .link_link a, .nav_active a , .social_link a {
         font-size: 14px;
         padding: 4px 9px 5px 9px;
         text-decoration: none;
