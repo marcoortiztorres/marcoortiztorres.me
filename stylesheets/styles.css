@@ -342,8 +342,7 @@ img {
   max-width:100%;
 }
 
-he
-ader {
+header {
   width:25%;
   float:left;
   position: fixed;
@@ -530,6 +529,11 @@ div.img:hover {
 div.img img {
     width: 100%;
     height: auto;
+}
+
+div.imgs {
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 div.desc {
