@@ -532,6 +532,8 @@ div.img img {
 }
 
 div.imgs {
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-left: 2%;
     margin-right: 2%;
 }
