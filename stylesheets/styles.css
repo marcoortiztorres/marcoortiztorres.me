@@ -532,10 +532,9 @@ div.img img {
 }
 
 div.imgs {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 2%;
-    margin-right: 2%;
+    width: 40px;
+    height: auto;
+    padding: 2px;
 }
 
 div.desc {
