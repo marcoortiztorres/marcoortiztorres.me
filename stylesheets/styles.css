@@ -10,7 +10,6 @@ body {
     color: #000000;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
-    /*padding:25px;*/
     height: 100%;
     line-height: 1.5;
     width: 80%;
@@ -21,6 +20,7 @@ body {
 
 /* Header / Navigation
 ***********************************************************************************************************/
+/* Logo Uses this */
 .header_img {
     margin: 0 auto 0 auto;
     padding: 0 0 0 35px;
@@ -31,13 +31,6 @@ body {
 div {
     display: block;
 }
-#nav_loadspin {
-    display: none;
-    position: fixed;
-    top: 8px;
-    left: 35px;
-    z-index: 100;
-}
 .nav_container.horizontal {
     line-height: 2;
     margin: 0 auto;
@@ -47,47 +40,45 @@ div {
     width: 940px;
     z-index: 25;
 }
+/* This is where the navigation likes */
 .nav_container.horizontal div {
     float: left;
     padding-right: 1px;
 }
-.project_link, .page_link, .link_link, .nav_active, .social_link {
-    margin: -15px 20px 0 -9px;
+.nav_social.horizontal {
+    position: relative;
+    margin: auto 0;
+    z-index: 25;
+    width: 1140px;
 }
-div {
-    display: block;
+.nav_social.horizontal div {
+    float: right;
 }
 .page_link a {
     color: #555555;
 }
-.nav_container a {
-    /*font-size: 15px;
-    padding: 2px 3px 3px 3px;
-    text-decoration: none;*/
-}
 a:-webkit-any-link {
-    /*color: -webkit-link;
-    text-decoration: underline;*/
     cursor: auto;
 }
     /* Navigation > Links
     ***************************************************************************************************/
-    .nav_container a {                           /* Applied to each navigation link */
+    /* Applied to each navigation link */
+    .nav_container a {
         font-size: 15px;
         padding: 2px 3px 3px 3px;;
         text-decoration: none;
     }
-    
+
     .project_link, .page_link, .link_link, .nav_active, .social_link {
         margin: -15px 20px 0 -9px;
     }
-    
+
     .project_link a, .page_link a, .link_link a, .nav_active a , .social_link a {
         font-size: 14px;
         padding: 4px 9px 5px 9px;
         text-decoration: none;
         white-space: nowrap;
-    
+
         border-radius: 10px;
         -moz-border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -119,9 +110,9 @@ a:-webkit-any-link {
     .nav_follow a { color: #999999; text-decoration: underline; }
     .nav_follow a:hover { background: #999999; color: #222222; }
     .nav_follow a:active { background: #FFC107; color: #ffffff; }
-        
+
     .view_tag_info { color: #999999; padding-left: 3px; font-size: 11px; }
-    
+
     .view_tag_info a { color: #0066ff; }
     .view_tag_info a:hover { background: #999999; color: #000000; }
     .view_tag_info a:active { background:#FFC107; color: #ffffff; } /* Any colours with this code #FFC107 were changed */
@@ -134,12 +125,12 @@ a:-webkit-any-link {
         position: relative;
         text-align: center;
     }
-    
+
     .project_thumb .hover {
         cursor: pointer;
         text-decoration: none;
     }
-    
+
     .project_thumb .nohover {
         text-decoration: none;
     }
@@ -147,7 +138,7 @@ a:-webkit-any-link {
     .project_thumb .hover .cardimgcrop {
         border: 5px solid #dddddd;
     }
-    
+
     .project_thumb .hover .thumb_title span {
         text-decoration: underline;
     }
@@ -159,7 +150,7 @@ a:-webkit-any-link {
     .project_thumb.active .thumb_title span {
         text-decoration: underline;
     }
-    
+
     .cardimgcrop {
         border: 5px solid transparent;
         margin: -5px -5px 6px -5px;
@@ -171,7 +162,7 @@ a:-webkit-any-link {
     .cardimgcrop.notitle_notag {
         margin-bottom: 22px;
     }
-        
+
     .loader_holder {
         display: none;
         position: absolute;
@@ -190,7 +181,7 @@ a:-webkit-any-link {
     .thumb_title.notag {
         margin: 0 0 22px 0;
     }
-    
+
     .thumb_title .text {
         color: #000000;
         font-size: 11px;
@@ -215,7 +206,7 @@ a:-webkit-any-link {
     .thumb_tag.notitle {
         margin-top: 5px;
     }
-    
+
     .thumb_tag a {
         color: #999999;
         /*font-family: Georgia, arial, serif;*/
@@ -224,7 +215,7 @@ a:-webkit-any-link {
         text-align: center;
         text-decoration: none;
     }
-    
+
     .thumb_tag a:hover {
         text-decoration: underline;
     }
@@ -292,14 +283,14 @@ section {
 section.title {
     background: #00BCD4;
     padding-top:15px;
-    padding-bottom:5px;
-    box-shadow: 0px 6px 10px #E0E0E0; /* Silk colour */
+    padding-bottom:10px;
+    /* box-shadow: 0px 6px 10px #E0E0E0;  Silk colour */
 }
 section.info {
     background: #FFFFFF;
     padding-top:30px;
     padding-bottom:30px;
-    box-shadow: 0px 2px 10px #E0E0E0; /* Silk colour */
+    /* box-shadow: 0px 2px 10px #E0E0E0;  Silk colour */
 }
 section.footer {
     background: #FFC107;
@@ -308,7 +299,7 @@ section.footer {
     box-shadow: 0px 8px 10px #E0E0E0; /* Silk colour */
 }
 
-/* 
+/*
 ***************************************************************************************************/
 
 blockquote {
@@ -351,7 +342,7 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 div.icons {
- margin-bottom: 300px; 
+ margin-bottom: 300px;
 }
 div.gd {
   margin-bottom: 250px;
@@ -519,7 +510,7 @@ div.img {
     float: left;
     border: 1px solid #ffffff;
     width: 227px;
-    height: 
+    height:
 }
 
 div.img:hover {
