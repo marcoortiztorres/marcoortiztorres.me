@@ -503,13 +503,13 @@ footer {
   }
 }
 div.img {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
     margin-left: 2%;
     margin-right: 2%;
     float: left;
     border: 1px solid #ffffff;
-    width: 227px;
+    width: 20%;
     height:
 }
 
