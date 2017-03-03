@@ -529,16 +529,11 @@ div.limg {
     float: left;
     border: 1px solid #ffffff;
     width: 40%;
-    height:
+    height: auto;
 }
 
 div.limg:hover {
     border: 1px solid #fafafa;
-}
-
-div.limg limg {
-    width: 100%;
-    height: auto;
 }
 
 div.imgs {
