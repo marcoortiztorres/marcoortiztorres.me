@@ -536,6 +536,21 @@ div.limg:hover {
     border: 1px solid #fafafa;
 }
 
+div.simg {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    border: 1px solid #ffffff;
+    width: 45%;
+    height: auto;
+}
+
+div.simg:hover {
+    border: 1px solid #fafafa;
+}
+
 div.imgs {
     width: 40px;
     height: auto;
