@@ -521,12 +521,32 @@ div.img img {
     width: 100%;
     height: auto;
 }
+div.limg {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    border: 1px solid #ffffff;
+    width: 40%;
+    height:
+}
+
+div.limg:hover {
+    border: 1px solid #fafafa;
+}
+
+div.limg limg {
+    width: 100%;
+    height: auto;
+}
 
 div.imgs {
     width: 40px;
     height: auto;
     padding: 2px;
 }
+
 
 div.desc {
     padding: 15px;
