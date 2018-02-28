@@ -6,7 +6,7 @@ body, html {
 }
 
 body {
-    background: #EEEEEE;
+    background: #fff0db;
     color: #000000;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
@@ -86,20 +86,20 @@ a:-webkit-any-link {
     }
 
     .project_link a { color: #555555; }
-    .project_link a:hover { background: #FFD54F; color: #000000; }
-    .project_link a:active { background: #FFD54F; color: #f2f2f2;}
+    .project_link a:hover { background: #cc9484; color: #ffffff; }
+    .project_link a:active { background: #cc9484; color: #f2f2f2;}
 
     .page_link a { color: #555555; }
-    .page_link a:hover { background: #FFD54F; color: #000000; }
-    .page_link a:active { background: #FFD54F; color: #f2f2f2; }
+    .page_link a:hover { background: #cc9484; color: #ffffff; }
+    .page_link a:active { background: #cc9484; color: #f2f2f2; }
 
     .link_link a { color: #555555; text-decoration: underline; }
-    .link_link a:hover { background: #000000; color: #000000; }
-    .link_link a:active { background: #FFD54F; color: #f2f2f2; }
+    .link_link a:hover { background: #ffffff; color: #ffffff; }
+    .link_link a:active { background: #cc9484; color: #f2f2f2; }
 
-    .nav_active a { background: #FFC107; color: #ffffff; }
-    .nav_active a:hover { background: #FFC107; color: #ffffff; }
-    .nav_active a:active  { background:#FFC107; color:#ffffff; }
+    .nav_active a { background: #e0a594; color: #ffffff; }
+    .nav_active a:hover { background: #e0a594; color: #ffffff; }
+    .nav_active a:active  { background:#e0a594; color:#ffffff; }
 
     .pagination { color: #999999; font-size: 11px; margin: 0 18px 0 0; z-index:11; }
     .bottompad .pagination { margin-left: 35px; }
@@ -110,13 +110,13 @@ a:-webkit-any-link {
     .nav_follow { color: #999999; font-size: 11px; z-index: 11; }
     .nav_follow a { color: #999999; text-decoration: underline; }
     .nav_follow a:hover { background: #999999; color: #222222; }
-    .nav_follow a:active { background: #FFC107; color: #ffffff; }
+    .nav_follow a:active { background: #e0a594; color: #ffffff; }
 
     .view_tag_info { color: #999999; padding-left: 3px; font-size: 11px; }
 
     .view_tag_info a { color: #0066ff; }
-    .view_tag_info a:hover { background: #999999; color: #000000; }
-    .view_tag_info a:active { background:#FFC107; color: #ffffff; } /* Any colours with this code #FFC107 were changed */
+    .view_tag_info a:hover { background: #999999; color: #ffffff; }
+    .view_tag_info a:active { background:#cc9484; color: #ffffff; } /* Any colours with this code #FFC107 were changed */
 
     /* Content > Thumbnails
     ***************************************************************************************************/
@@ -282,7 +282,7 @@ section {
     padding-right:20px;
 }
 section.title {
-    background: #00BCD4;
+    background: #3a4660;
     padding-top:15px;
     padding-bottom:10px;
     /* box-shadow: 0px 6px 10px #E0E0E0;  Silk colour */
