@@ -8,7 +8,7 @@ body, html {
 body {
     background: #fff0db;
     color: #000000;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     height: 100%;
     line-height: 1.5;
@@ -298,6 +298,17 @@ section.footer {
     padding-top:5px;
     padding-bottom:5px;
     box-shadow: 0px 8px 10px #E0E0E0; /* Silk colour */
+}
+
+/* CV Tab and spacing
+***************************************************************************************************/
+
+.tab {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.right {
+  float: right;
 }
 
 /*
