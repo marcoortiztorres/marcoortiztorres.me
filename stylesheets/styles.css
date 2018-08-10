@@ -544,6 +544,17 @@ div.limg {
     height: auto;
 }
 
+div.timg {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    border: 1px solid #ffffff;
+    width: 28%;
+    height: auto;
+}
+
 div.limg:hover {
     border: 1px solid #fafafa;
 }
